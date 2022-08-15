@@ -5,7 +5,80 @@
 }
 
 nav{
-    width: auto;
-    height: 60px;
-    background-color: rgba(0, 0, 255, 0);
+    display: flex;
+    justify-content: right;
+    height: 40px;
+    overflow: hidden;
+    margin-top: 40px;
+    
+}
+
+nav a{
+    list-style: none;
+    text-decoration: none;
+    float: left;
+}
+
+.navList{
+    margin-right: 80px;
+    font-size: large;
+}
+
+li{
+    color: white;
+    padding-left:33px ;
+    
+}
+.logo{
+    float: none;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.mobile-responsive{
+    display: none;
+}
+.logo{
+    color: rgb(255, 255, 255);
+    font-size: large;
+}
+
+@media screen and (max-width:780px) {
+    ul{
+        display: none;
+    }
+    nav{
+        background-color: rgba(11, 153, 161, 0.664);
+        margin-top:6px;
+    }
+    .mobile-responsive
+    {
+        margin-top: 3px;
+        margin-right: 10px;
+        display: block;
+        background-color:rgb(255, 255, 255);
+        width: 35px;
+        height: 35px;
+    }
+    .nav-links-mobile{
+        margin-top: 35px;
+        position: absolute;
+        display: block;
+        background-color: rgba(11, 153, 161, 0.664);
+        left: 1px;
+        width: 100%;
+        text-align: center;
+    }
+    nav a{
+        float: none;
+    }
+    li{
+        padding: 8px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.61);
+    }
+    /* .header{
+        display: flex;
+    } */
 }

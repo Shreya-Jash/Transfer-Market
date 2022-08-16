@@ -6,7 +6,7 @@
 
 nav{
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     height: 40px;
     overflow: hidden;
     margin-top: 40px;
@@ -29,14 +29,12 @@ li{
     padding-left:33px ;
     
 }
+li:hover{
+    color: burlywood;
+}
 .logo{
-    float: none;
+    margin-left: 50px;    
 }
-.header{
-    display: flex;
-    justify-content: space-around;
-}
-
 .mobile-responsive{
     display: none;
 }
@@ -46,6 +44,7 @@ li{
 }
 
 @media screen and (max-width:780px) {
+   
     ul{
         display: none;
     }
@@ -63,7 +62,7 @@ li{
         height: 35px;
     }
     .nav-links-mobile{
-        margin-top: 35px;
+        margin-top: 41px;
         position: absolute;
         display: block;
         background-color: rgba(11, 153, 161, 0.664);
@@ -78,7 +77,12 @@ li{
         padding: 8px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.61);
     }
-    /* .header{
-        display: flex;
-    } */
+    button{
+        position: absolute;
+        margin-left: 420px;
+    }
+    .logo{
+        margin-left: 20px;
+        padding-top: 7px;
+    }
 }

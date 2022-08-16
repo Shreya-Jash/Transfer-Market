@@ -77,10 +77,6 @@ li:hover{
         padding: 8px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.61);
     }
-    button{
-        position: absolute;
-        margin-left: 420px;
-    }
     .logo{
         margin-left: 20px;
         padding-top: 7px;

@@ -2,7 +2,7 @@ import React from 'react'
 import Slider from '../components/slider/Slider'
 function Home() {
   return (
-    <div>Home
+    <div>
       <Slider />
     </div>
     

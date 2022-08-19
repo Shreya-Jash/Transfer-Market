@@ -10,7 +10,6 @@ nav{
     height: 40px;
     overflow: hidden;
     margin-top: 40px;
-    
 }
 
 nav a{
@@ -49,7 +48,7 @@ li:hover{
         display: none;
     }
     nav{
-        background-color: rgba(11, 153, 161, 0.664);
+        background-color: rgba(11, 153, 161, 0.888);
         margin-top:6px;
     }
     .mobile-responsive
@@ -65,10 +64,11 @@ li:hover{
         margin-top: 41px;
         position: absolute;
         display: block;
-        background-color: rgba(11, 153, 161, 0.664);
+        background-color: rgba(11, 153, 161, 0.888);
         left: 1px;
         width: 100%;
         text-align: center;
+        z-index: 1;
     }
     nav a{
         float: none;
